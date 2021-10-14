@@ -1,10 +1,11 @@
 import { createEnterBirthdayPage } from "./lib/enterBirthdayPage.js";
 import { createTitleComponent } from "./lib/titleComponent.js";
-import { createFooterComponent } from "./lib/footerComponent";
+import { createFooterComponent } from "./lib/footerComponent.js";
 
 // Declare a function to create the elements and logic inside the #app element
 function createApp() {
   // Get a reference to the <div id="app"></div> element
+
   const appElement = document.querySelector("#app");
 
   // Create title component
